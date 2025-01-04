@@ -43,3 +43,12 @@ _export default defineConfig({
   },
 });_
 
+
+**Add scripts in the package.json**
+
+in the scripts, add this:
+"scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+}
+
